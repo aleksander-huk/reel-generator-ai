@@ -1,0 +1,16 @@
+# Exclude all files
+*
+
+# Allow files in the src/ directory
+!src/
+!src/**
+
+# Allow files in the main directory
+!/*
+
+# Exclude specific temporary files and directories
+__pycache__/
+.ipynb_checkpoints/
+*.log
+*.tmp
+
